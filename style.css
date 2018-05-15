@@ -1,0 +1,399 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*MY CODE*/
+
+.main-wrapper {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: url("images/framsida.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -background-size: cover;
+
+}
+
+header nav {
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    opacity: 0.8;
+}
+
+header nav ul {
+    float: left;
+}
+
+header nav ul li {
+    float: left;
+    list-style: none;
+}
+
+/*Home-button*/
+header nav ul li a {
+    font-family: arial;
+    font-size: 16px;
+    color: #000;
+    line-height: 63px;
+}
+
+header .nav-login {
+    float: right;
+}
+
+header .nav-login form {
+    float: left;
+    padding-top: 15px;
+}
+
+header .nav-login form input {
+    float: left;
+    width: 140px;
+    height: 30px;
+    padding: 0px 10px;
+    margin-right: 10px;
+    border: none;
+    background-color: #ccc;
+    font-family: arial;
+    font-size: 14px;
+    color: #111;
+    line-height: 30px;
+}
+
+header .nav-login form button {
+    float: left;
+    width: 60px;
+    height: 30px;
+    margin-right: 10px;
+    border: none;
+    background-color: #f3f3f3;
+    font-family: arial;
+    font-size: 14px;
+    color: #111;
+    cursor: pointer;
+}
+
+header .nav-login form button:hover {
+    background-color: #ccc;
+}
+
+header .nav-login a {
+    display: block;
+    width: 60px;
+    height: 60px;
+    border: none;
+    float: left;
+    background-color: #fff;
+    font-family: arial;
+    font-size: 16px;
+    color: #000;
+    line-height: 63px;
+    cursor: pointer;
+}
+
+.main-container {
+    padding-top: 40px;
+}
+
+.main-container h2 {
+    font-family: arial;
+    font-size: 40px;
+    color: #111;
+    line-height: 50px;
+    text-align: center;
+}
+
+/*signup.php*/
+
+.signup-form {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.signup-form input {
+    width: 90%;
+    height: 40px;
+    padding: 0px 5%;
+    margin-bottom: 4px;
+    border: none;
+    background-color: #fff;
+    font-family: arial;
+    font-size: 16px;
+    color: #111;
+    line-height: 40px;
+    opacity: 0.8;
+}
+
+
+.signup-form button {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    height: 40px;
+    border: none;
+    background-color: #222;
+    font-family: arial;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.signup-form button:hover {
+    background-color: #111;
+}
+
+/*Design på kommentarsfältet*/
+.comment-post textarea{
+  width: 500px;
+  height: 80px;
+  background-color: #fff;
+  resize: none;
+  margin: auto;
+  display: block;
+  margin-top: 400px;
+}
+
+/*Design på comment-knappen*/
+.comment-post button{
+  width: 100px;
+  height: 30px;
+  background-color: #282828;
+  border: none;
+  color: #fff;
+  font-family: arial;
+  font-weight: 400;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+/*comments.inc.php*/
+/*Comment-box: Design på kommentarsboxarna*/
+.comment-box{
+  margin: auto;
+  width: 500px;
+  padding: 20px;
+  margin-bottom: 4px;
+  background-color: #fff;
+  opacity: 0.8;
+
+}
+
+/*Ändrar texten i kommentarboxen*/
+.comment-box p {
+font-family: arial;
+font-size: 14px;
+line-height: 16px;
+color: #ffffff; /*#282828*/
+font-weight: 100;
+}
+
+/*Computer image*/
+/*indexcomment.php*/
+img {
+  margin-top: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*bakgrundbild på index-comment-php*/
+/*indexcomment.php*/
+#index-comment  {
+  background: url("/images/apa2.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -background-size: cover;
+}
+
+
+
+#signupbackground {
+  background: url("signupapa.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -background-size: cover;
+}
+
+/*indexcomment.php*/
+.loginerror {
+  font-family: arial;
+  font-size: 16px;
+  color: white;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/*index.php*/
+/* Buttons in the middle of the homepage */
+.btn {
+    margin: 0 auto;
+    background-color: DarkGreen; /* Blue background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 12px 16px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+}
+
+/*index.php*/
+/* Buttons in the middle of the homepage */
+/* Darker background on mouse-over */
+.btn:hover {
+    background-color: LightSkyBlue;
+}
+
+
+
+/*header.php*/
+/* Sportsbutton*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+    padding-top: 25px;
+    font-family: arial;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*event.php*/
+#eventbackground {
+  background: url("images/eventsida.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -background-size: cover;
+}
